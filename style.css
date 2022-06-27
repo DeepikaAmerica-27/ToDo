@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(38, 34, 34);
+    
+  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.mainframe{
+    width: 100%;
+  margin-top: 20px;
+
+}
+.input h1{
+   text-align: center;
+   color:rgb(57,255,20) ;
+   font-family: 'Dancing Script', cursive;
+}
+.input{
+    margin: auto;
+    width: 600px;
+    padding: 10px ;
+    box-shadow: 2px 2px 4px 3px 	rgb(57,255,20);
+}
+.in{
+    padding: 8px;
+    margin: 12px;
+    border: 2px solid  black;
+    border-radius: 9px;
+    height: 30px;
+    width: 400px;
+    font-size: 17px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif    
+    
+}
+.add{
+    width: 76px;
+    margin-left: 31px;
+    height: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 19px;
+    background-color: rgb(57,255,20);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.add:hover{
+    color: rgb(57,255,20);
+    background-color: white;
+}
+.tasks{
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
+    box-shadow: 1px 1px 1px 1px rgb(57,255,20);
+    color: white;
+    font-family:  'Dancing Script', cursive;
+    text-align: center;  
+    transition: 1s;
+    border-radius: 12px;
+    height: 40px;
+    
+
+}
+
+.inside{
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
+    box-shadow: 1px 1px 1px 1px rgb(57,255,20);
+    color: white;
+    font-family:  'Dancing Script', cursive;
+    text-align: center;  
+    transition: 0.7s;
+    border-radius: 12px;
+    height: 40px;
+    overflow-y: scroll;
+    font-size: 19px;
+}
+.inside:hover{
+    cursor: pointer;
+    color: white;
+    background-color:rgb(57,255,20) ;
+    text-decoration: line-through;
+    border-radius: 12px;
+    transition: 1s;
+}
+
+
